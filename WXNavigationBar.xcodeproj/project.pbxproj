@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261204C22498DF5100057962 /* UIApplication+WXNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261204C12498DF5100057962 /* UIApplication+WXNavigationBar.swift */; };
 		A3340680240BD9E8007C02F2 /* WXNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A334067E240BD9E8007C02F2 /* WXNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A334068C240BDA1D007C02F2 /* UINavigationBar+WXNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3340686240BDA1D007C02F2 /* UINavigationBar+WXNavigationBar.swift */; };
 		A334068E240BDA1D007C02F2 /* WXNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3340688240BDA1D007C02F2 /* WXNavigationBar.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		261204C12498DF5100057962 /* UIApplication+WXNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+WXNavigationBar.swift"; sourceTree = "<group>"; };
 		A334067B240BD9E8007C02F2 /* WXNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WXNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A334067E240BD9E8007C02F2 /* WXNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXNavigationBar.h; sourceTree = "<group>"; };
 		A334067F240BD9E8007C02F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		A334067D240BD9E8007C02F2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				261204C12498DF5100057962 /* UIApplication+WXNavigationBar.swift */,
 				A3340686240BDA1D007C02F2 /* UINavigationBar+WXNavigationBar.swift */,
 				A334068A240BDA1D007C02F2 /* UINavigationController+WXNavigationBar.swift */,
 				A3340689240BDA1D007C02F2 /* UIViewController+WXNavigationBar.swift */,
@@ -152,6 +155,7 @@
 				A334068F240BDA1D007C02F2 /* UIViewController+WXNavigationBar.swift in Sources */,
 				A334068E240BDA1D007C02F2 /* WXNavigationBar.swift in Sources */,
 				A334068C240BDA1D007C02F2 /* UINavigationBar+WXNavigationBar.swift in Sources */,
+				261204C22498DF5100057962 /* UIApplication+WXNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -266,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
